@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allan's Confession</title>
+    <title>Allan's Confession </title>
     <link rel="stylesheet" href="animation.css">
+   
 </head>
 <body>
-    <div class="BtnHolder">
-        <h1>Do you Love me?</h1>
+    <div class="entireShit">
+        <div class="question">
+            <h1>
+                Do you Love me?
+            </h1>
+        </div>
 
-     <div >
-        <button class="yesBtn">Yes</button>
-     </div >
+        <div class="btnContainers">
+            <div class="yesBtnContainer">
+                <button id="yesBtn">Yes</button>
+                <p class="message">I knew you loved me!😍</p>
+            </div>
 
-     <div id="noBtn" >
-        <button class="noBtn">No</button>
-     </div>
-
+            <div class="noBtnContainer">
+                <p class="surmsg">Are U sure?:<</p>
+                <button id="noBtn">No</button>
+             <p class="message">But why☹️???</p>
+            </div>
+        </div>
     </div>
-  
+
+    <audio src="violin.mp3" id="noAudio"></audio>
+    <audio src="yeah.mp3" id="yesAudio"></audio>
+
+    <script src="sound.js"></script>
 </body>
 </html>
